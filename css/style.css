@@ -106,3 +106,70 @@
     background: transparent;
     letter-spacing: 2px;
 }
+.software_cards{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #fff;
+}
+.info_card{
+    flex-basis: 31%;
+    padding: 25px 20px;
+    background: rgba(55,66,80,0.281);
+    border-radius:  5px;
+    border: 1px solid transparent;
+    transition: all .5s ease-in-out;
+}
+.info_card:hover{
+    border: 1px solid #24caac;
+}
+.info_card .icon{
+    font-size: 25px;
+    color: #24caac;
+}
+
+.info_card h3{
+    font-size: 25px;
+    margin: 5px 0;
+}
+.info_card p{
+    font-size: 16px;
+}
+.certificate_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.certificate_course{
+    flex-basis: 24%;
+    color: #fff;
+    padding: 20px 10px 20px 10px;
+    border: 1px solid transparent;
+    transition: .3s;
+    border-radius: 5px;
+}
+.course_img img{
+    width: 200px;
+    height: 200px;
+
+}
+.certificate_course:hover{
+    border: 1px solid #24caac;
+}
+.course_detail{
+    display: flex;
+    justify-content: space-between;
+}
+.course_detail ul{
+    display: flex;
+    color: gray;
+    flex-basis: 50%;
+}
+.course_detail ul li{
+    color: gold;
+}
