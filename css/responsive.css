@@ -1,0 +1,84 @@
+@media screen and (max-width:770px) {
+ 
+    .navbar{
+        width: 90%;
+    }
+    .logo h2 a {
+        font-size: 20px;
+    }
+
+    #menu_bar{
+        display: grid;
+        color: #fff;
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        
+        border: 1px solid #fff;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        cursor:pointer;
+    }
+    .nav_links{
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        padding-top:  40px;
+       
+
+        
+        background-color: #24292D;
+        width: 100%;
+    }
+    
+    .nav_links li a{
+        border-bottom: 1px solid #fff;
+        display: block;
+        border-radius: 0;
+        padding: 10px 0;
+        margin: 0 70px;
+    }
+    .hero_banner{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        
+    }
+    .hero_banner_title{
+        flex-basis: 100%;
+    }
+
+    .software_cards{
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .certificate_course{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .achievements_content{
+        flex-direction: column;
+        margin-bottom: 30px;
+       
+    }
+    .card_detail{
+        flex-basis: 100%;
+    }
+    .about_content{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+   .contact_img{
+        flex-basis: 100%;
+        margin-bottom:30px;
+   }
+   .contact_form{
+    flex-basis: 100%;
+
+   }
+   .
+   
+}
